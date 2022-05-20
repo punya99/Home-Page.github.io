@@ -1,0 +1,368 @@
+@font-face {
+    font-family: "Gilroy";
+    src: url(../fonts/Gilroy-Regular.woff)format("woff"), url(../fonts/Gilroy-Regular.ttf)format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: "Gilroy";
+    src: url(../fonts/Gilroy-ExtraBold.woff)format("woff"), url(../fonts/Gilroy-ExtraBold.ttf)format("truetype");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: "Gilroy";
+    src: url(../fonts/Gilroy-SemiBold.woff)format("woff"), url(../fonts/Gilroy-SemiBold.ttf)format("truetype");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: "Gilroy";
+    src: url(../fonts/Gilroy-Medium.woff)format("woff"), url(../fonts/Gilroy-Medium.ttf)format("truetype");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: "Gilroy";
+    src: url(../fonts/Gilroy-Bold.woff)format("woff"), url(../fonts/Gilroy-Bold.ttf)format("truetype");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap
+}
+
+body {
+    font-family: "Gilroy";
+    overscroll-behavior-x: none;
+    overflow: hidden;
+    height: 100vh
+}
+
+
+
+.mainsite {
+    position: fixed;
+    left: 0;
+    width: 100%;
+    padding: 10px 0;
+    background: 0 0;
+    z-index: 99;
+    top: 0
+}
+
+.mainsite a.navbar-brand {
+    margin: 0;
+    padding: 0
+}
+
+.mainsite a.navbar-brand img {
+    width: 150px
+}
+
+.mainsite nav.navbar.navbar-expand-lg {
+    padding: 0
+}
+
+.mainsite .navbar-nav li a {
+    text-transform: uppercase;
+    color: black;
+    font-weight: 900;
+    font-size: 1.0rem;
+    padding: 0 6px;
+    text-decoration: none
+}
+
+.mainsite .navbar-nav li.nav-item.lastgray a {
+    background: #5b5b5b;
+    color: #fff;
+    padding: 2px 8px
+}
+
+.mainsite .navbar-nav li {
+    margin: auto 21px;
+    position: relative
+}
+
+img.backbgadesktop {
+    position: absolute;
+    left: 0;
+    z-index: -2;
+    top: 0;
+    width: 100%;
+    height: 100%
+}
+
+.leftsd {
+    float: left;
+    z-index: 9;
+    margin-top: 0;
+    margin-bottom: 30px
+}
+
+.leftsd.contentbannner {
+    float: none;
+    margin-left: 6%;
+    max-width: 100%
+}
+
+.mainsite .container-fluid {
+    max-width: 2698px
+}
+
+.toponlyarro .arrowtopheadonly {
+    width: 198px;
+    position: absolute;
+    top: 0;
+    right: 0
+}
+
+.arrowbannshoon .arrowtopheadonly {
+    width: 198px;
+    position: absolute;
+    bottom: 0;
+    right: -32px;
+    z-index: 9
+}
+
+.sunbdropsdown,
+div#nav {
+    position: absolute;
+    left: 0
+}
+
+div#nav {
+    right: 0;
+    width: 100%;
+    top: 50%;
+    z-index: 9999
+}
+
+div#nav button {
+    width: auto;
+    height: auto;
+    font-size: 33px;
+    color: #000;
+    border-radius: 0;
+    outline: 0
+}
+
+div#nav button,
+div#nav button:hover {
+    padding: 0;
+    background: 0 0;
+    box-shadow: none;
+    border: 0
+}
+
+.mainsite a.navbar-brand,
+a.midmeirark,
+div#nav button.left {
+    float: left
+}
+
+div#nav button.right {
+    float: right
+}
+
+.sunbdropsdown {
+    padding: 0;
+    list-style-type: none;
+    text-align: left;
+    width: 201px;
+    background: #ffdb2c;
+    opacity: 0;
+    visibility: hidden;
+    transition: all ease .6s;
+    top: 21px
+}
+
+.sunbdropsdown li {
+    margin: 0
+}
+
+.mainsite .navbar-nav ul.sunbdropsdown li,
+.mainsite ul.sunbdropsdown li {
+    margin: 0 7px
+}
+
+.mainsite .navbar-nav ul.sunbdropsdown li a {
+    font-size: 12px;
+    display: inline-block;
+    border-bottom: 1px solid #000;
+    text-decoration: none;
+    padding: 6px 0
+}
+
+.mainsite .navbar-nav ul.sunbdropsdown li:last-child a,
+.mainsite ul.sunbdropsdown li:last-child a {
+    border-bottom: 0 solid #000
+}
+
+.mainsite .navbar-nav li:hover .sunbdropsdown {
+    opacity: 1;
+    visibility: visible
+}
+
+.mainsite .navbar-nav ul.sunbdropsdown li i,
+.mainsite ul.sunbdropsdown li i {
+    float: right;
+    font-size: 10px;
+    line-height: 30px
+}
+
+.mainsite .navbar-nav li.active a,
+.mainsite .navbar-nav li:hover a {
+    
+    color: #fff;
+    background:rgb(73, 73, 230) ;
+    border: 2px solid rgb(73, 73, 230) ;
+    border-radius: 10px;
+}
+
+.scrolltxtinfo {
+    position: absolute;
+    left: 20px;
+    bottom: 14px
+}
+
+.scrolltxtinfo p {
+    font-size: 14px;
+    display: flex;
+    flex-direction: row
+}
+
+.scrolltxtinfo p i {
+    font-size: 17px;
+    margin: auto 4px;
+    line-height: 26px
+}
+
+.menurights i {
+    font-size: 20px
+}
+
+.slick-slide {
+    height: 100vh
+}
+
+.slick-dots {
+    bottom: 40px
+}
+
+.slick-dots li button:before {
+    font-size: 10px;
+    color: #cacaca;
+    opacity: 1
+}
+
+/* .slick-dots li.slick-active button:before {
+    font-size: 15px;
+    color: rgb(6, 6, 177);
+} */
+
+.desktopshowaronly {
+    display: block;
+    overflow: hidden
+}
+
+.mobiledisonly {
+    display: none
+}
+
+.slick-slide .showonlybigdvc,
+.slick-slide .showonlyextrabig {
+    width: 100%;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    display: none
+}
+
+.menurights {
+    position: relative;
+    width: 20px
+}
+
+.innelnks,
+.innelnks ul li ul {
+    position: absolute;
+    width: 163px;
+    padding: 10px
+}
+
+.innelnks {
+    right: 0;
+    background: #fdc900;
+    top: 23px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 155px;
+    opacity: 0;
+    visibility: hidden;
+    transition: all ease .5s
+}
+
+.innelnks.showit,
+span.swiper-pagination-bullet:hover .sunbdropsdown {
+    opacity: 1;
+    visibility: visible
+}
+
+.innelnks ul {
+    padding: 0;
+    list-style-type: none;
+    margin: 0
+}
+
+.innelnks ul li a {
+    color: #000;
+    text-decoration: none;
+    display: block
+}
+
+.innelnks ul li a .rghtsdir {
+    float: right;
+    width: 100%;
+    text-align: right
+}
+
+.innelnks ul li ul {
+    top: 10px;
+    left: 0
+}
+
+.innelnks ul li {
+    position: relative;
+    text-align: left
+}
+
+.innelnks ul li a span {
+    font-size: 13px;
+    font-weight: 600
+}
+
+.innelnks ul li a span i {
+    font-size: 12px;
+    margin: 0 6px
+}
+
+.menurights .fa-times,
+.menurights.showcrs .fa-bars {
+    display: none
+}
+
+.container-fluid.fordeskonly,
+.menurights .fa-bars,
+.menurights.showcrs .fa-times {
+    display: block
+}
+
+
+
